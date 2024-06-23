@@ -1,0 +1,50 @@
+title {
+    font-family: Oxygen;
+    font-weight: bold;
+    text-align: center;
+}
+
+body {
+    background-image: url("solo.jpg");
+    background-position: center center; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: Oxygen;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    max-width: 100%;
+    max-height: min-content;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: goldenrod;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background: silver;
+}
+
+#save-btn {
+    background: black;
+}
+
