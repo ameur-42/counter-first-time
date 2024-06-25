@@ -13,7 +13,7 @@ body {
     font-family: Oxygen;
     font-weight: bold;
     text-align: center;
-    color: black;
+    color: blue;
     max-width: 100%;
     max-height: min-content;
 }
@@ -28,7 +28,10 @@ h2 {
     margin-top: 0;
     margin-bottom: 20px;
 }
-
+h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 button {
     border: none;
     padding-top: 10px;
