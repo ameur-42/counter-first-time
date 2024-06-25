@@ -1,7 +1,10 @@
 let saveEl = document.getElementById("save-el")
 let countEl = document.getElementById("count-el")
 let count = 0
-
+function dice() {
+const random = Math.floor(Math.random() * 6);
+}
+      
 function increment() {
     count += 1
     countEl.textContent = count
