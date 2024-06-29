@@ -3,7 +3,7 @@ let countEl = document.getElementById("count-el")
 let randomDice = document.getElementById("randomDice")
 let count = 0
 function dice() {
-const random = Math.floor(Math.random() * 6);
+const random = Math.floor(Math.random() * 6 + 1);
 randomDice.textContent = random
 }
       
